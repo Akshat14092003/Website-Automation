@@ -1,0 +1,613 @@
+{
+  "options": {
+    "noColor": false,
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": ""
+  },
+  "state": {
+    "isStdErrTTY": true,
+    "testRunDurationMs": 186813.5156,
+    "isStdOutTTY": true
+  },
+  "metrics": {
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 91,
+        "rate": 0.48711678974473516
+      }
+    },
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 587,
+        "rate": 3.142170940441314
+      }
+    },
+    "vus_max": {
+      "contains": "default",
+      "values": {
+        "max": 5,
+        "value": 5,
+        "min": 5
+      },
+      "type": "gauge"
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 321131,
+        "rate": 1718.9923275551268
+      }
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 602,
+        "fails": 0
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 359.8824,
+        "p(90)": 240.02112,
+        "p(95)": 249.38908,
+        "avg": 225.15104872231677,
+        "min": 203.9448,
+        "med": 224.1791
+      }
+    },
+    "iteration_duration": {
+      "contains": "time",
+      "values": {
+        "max": 10530.8271,
+        "p(90)": 9852.0513,
+        "p(95)": 9888.75265,
+        "avg": 8439.329295604393,
+        "min": 4842.1838,
+        "med": 8618.6082
+      },
+      "type": "trend"
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0,
+        "avg": 1.9021013628620103,
+        "min": 0,
+        "med": 0,
+        "max": 247.5514,
+        "p(90)": 0
+      }
+    },
+    "group_duration": {
+      "contains": "time",
+      "values": {
+        "avg": 8399.561451648351,
+        "min": 4842.1838,
+        "med": 8618.6082,
+        "max": 9963.0146,
+        "p(90)": 9837.0084,
+        "p(95)": 9854.3345
+      },
+      "type": "trend"
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 1.8253889267461672,
+        "min": 0,
+        "med": 0,
+        "max": 225.5253
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 224.1922,
+        "max": 359.8824,
+        "p(90)": 240.81928,
+        "p(95)": 250.21328,
+        "avg": 225.29530304259646,
+        "min": 203.9448
+      }
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 67.6403,
+        "p(90)": 0.5803799999999999,
+        "p(95)": 0.943929999999999,
+        "avg": 0.2710586030664396,
+        "min": 0
+      }
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0.16013628620102216,
+        "passes": 94,
+        "fails": 493
+      },
+      "thresholds": {
+        "rate<0.01": {
+          "ok": false
+        }
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0,
+        "avg": 3.879827597955707,
+        "min": 0,
+        "med": 0,
+        "max": 555.1956,
+        "p(90)": 0
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 263894,
+        "rate": 1412.6065726691993
+      }
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 225.42752231686524,
+        "min": 203.9448,
+        "med": 224.3151,
+        "max": 359.8824,
+        "p(90)": 240.65388,
+        "p(95)": 249.83621
+      },
+      "thresholds": {
+        "p(95)<500": {
+          "ok": true
+        },
+        "p(99)<1000": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0,
+        "avg": 0.005414991482112436,
+        "min": 0,
+        "med": 0,
+        "max": 0.5917,
+        "p(90)": 0
+      }
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 2,
+        "min": 1,
+        "max": 5
+      }
+    }
+  },
+  "__meta": {
+    "baseUrl": "",
+    "stage": "smoke"
+  },
+  "root_group": {
+    "groups": [
+      {
+        "name": "Platform Player",
+        "path": "::Platform Player",
+        "id": "30c3b7f05906d37a20fe838ad183f08d",
+        "groups": [],
+        "checks": [
+            {
+              "name": "topup-info: status 200",
+              "path": "::Platform Player::topup-info: status 200",
+              "id": "1798b2eb02499a03875460d9cd175384",
+              "passes": 18,
+              "fails": 0
+            },
+            {
+              "name": "topup-submit: responded",
+              "path": "::Platform Player::topup-submit: responded",
+              "id": "7d22bc61c949fc13e7855e9f4683f1b1",
+              "passes": 18,
+              "fails": 0
+            },
+            {
+              "name": "topup-history: status 200",
+              "path": "::Platform Player::topup-history: status 200",
+              "id": "ed0a11596d6bc39c2e066e4e7ada03c0",
+              "passes": 18,
+              "fails": 0
+            },
+            {
+              "name": "redeem-info: status 200",
+              "path": "::Platform Player::redeem-info: status 200",
+              "id": "2bfa6f79702dd40626b387391764f9d0",
+              "passes": 18,
+              "fails": 0
+            },
+            {
+              "path": "::Platform Player::redeem-submit: responded",
+              "id": "d7415721244e08cae6548d698ee40c70",
+              "passes": 18,
+              "fails": 0,
+              "name": "redeem-submit: responded"
+            },
+            {
+              "path": "::Platform Player::redeem-history: status 200",
+              "id": "ddd76225686f2beee7b4c240a4d9345c",
+              "passes": 18,
+              "fails": 0,
+              "name": "redeem-history: status 200"
+            }
+          ]
+      },
+      {
+        "name": "Browsing Player",
+        "path": "::Browsing Player",
+        "id": "b690f92c1fa12f914f42599b11b3f24c",
+        "groups": [],
+        "checks": [
+            {
+              "passes": 25,
+              "fails": 0,
+              "name": "balances: status 200",
+              "path": "::Browsing Player::balances: status 200",
+              "id": "0a54b84e52c8dd57f6dc0764e1d4ef8b"
+            },
+            {
+              "path": "::Browsing Player::txn-history: status 200",
+              "id": "1e90d989d0701d6a8558b701a8cef1ab",
+              "passes": 25,
+              "fails": 0,
+              "name": "txn-history: status 200"
+            },
+            {
+              "name": "redeem-history: status 200",
+              "path": "::Browsing Player::redeem-history: status 200",
+              "id": "bc6541df3678646ac5c243820a343ec7",
+              "passes": 25,
+              "fails": 0
+            },
+            {
+              "fails": 0,
+              "name": "bonus-history: status 200",
+              "path": "::Browsing Player::bonus-history: status 200",
+              "id": "9c64015e6c25ad94f1acb89e0f1906e9",
+              "passes": 25
+            },
+            {
+              "path": "::Browsing Player::platforms: status 200",
+              "id": "f43ee45604d444f2995bffed186b778f",
+              "passes": 25,
+              "fails": 0,
+              "name": "platforms: status 200"
+            },
+            {
+              "name": "withdraw-history: status 200",
+              "path": "::Browsing Player::withdraw-history: status 200",
+              "id": "b9d88073de126846388ebf9377e3835b",
+              "passes": 25,
+              "fails": 0
+            },
+            {
+              "id": "164c630f79418e33477fcc975a4c977b",
+              "passes": 25,
+              "fails": 0,
+              "name": "support-summary: status 200",
+              "path": "::Browsing Player::support-summary: status 200"
+            }
+          ]
+      },
+      {
+        "path": "::Redemption Player",
+        "id": "4a4a367dc59fcd123882b82fabbd2398",
+        "groups": [],
+        "checks": [
+            {
+              "path": "::Redemption Player::balances: status 200",
+              "id": "24711376438450e2c07f65a6eb46c3ea",
+              "passes": 10,
+              "fails": 0,
+              "name": "balances: status 200"
+            },
+            {
+              "name": "balances: success",
+              "path": "::Redemption Player::balances: success",
+              "id": "c3ac248388150d1ec4073fd4b08ec031",
+              "passes": 10,
+              "fails": 0
+            },
+            {
+              "name": "bank-status: responded",
+              "path": "::Redemption Player::bank-status: responded",
+              "id": "642ce81f98e07535ca3a93cc088fc355",
+              "passes": 10,
+              "fails": 0
+            },
+            {
+              "name": "redeem-history: status 200",
+              "path": "::Redemption Player::redeem-history: status 200",
+              "id": "13ffef1206c7729586ae3f0ad9bd530a",
+              "passes": 10,
+              "fails": 0
+            },
+            {
+              "name": "withdraw-history: status 200",
+              "path": "::Redemption Player::withdraw-history: status 200",
+              "id": "6f61ed496301c56d16dc9ff8034ad036",
+              "passes": 10,
+              "fails": 0
+            }
+          ],
+        "name": "Redemption Player"
+      },
+      {
+        "name": "New Player",
+        "path": "::New Player",
+        "id": "3dc9104390f17dea8f8d095771ff489c",
+        "groups": [],
+        "checks": [
+            {
+              "name": "ver-status: status 200",
+              "path": "::New Player::ver-status: status 200",
+              "id": "30a3e3e8598cf978bb6375e65de552a5",
+              "passes": 10,
+              "fails": 0
+            },
+            {
+              "passes": 10,
+              "fails": 0,
+              "name": "claim-email: responded",
+              "path": "::New Player::claim-email: responded",
+              "id": "01aeb9979257fafa79c8c70442efd7f0"
+            },
+            {
+              "id": "e31fef2a8f9b08893e0ae6c22e9448bf",
+              "passes": 10,
+              "fails": 0,
+              "name": "kyc-status: status 200",
+              "path": "::New Player::kyc-status: status 200"
+            },
+            {
+              "fails": 0,
+              "name": "ver-save: responded",
+              "path": "::New Player::ver-save: responded",
+              "id": "3084299d424ea1d6dafc3c1e82e9e4e9",
+              "passes": 10
+            },
+            {
+              "path": "::New Player::ver-info: responded",
+              "id": "49746d05f4a1d17a6554827640e17624",
+              "passes": 10,
+              "fails": 0,
+              "name": "ver-info: responded"
+            },
+            {
+              "id": "96e193cf80056095a0f76ef16137f28d",
+              "passes": 10,
+              "fails": 0,
+              "name": "ver-update: responded",
+              "path": "::New Player::ver-update: responded"
+            },
+            {
+              "passes": 10,
+              "fails": 0,
+              "name": "seon-status: status 200",
+              "path": "::New Player::seon-status: status 200",
+              "id": "d6d0d820ea8f51143d636dcf324a1a7f"
+            },
+            {
+              "name": "ref-validate: responded",
+              "path": "::New Player::ref-validate: responded",
+              "id": "df148aa90f69aed09ee7182c7c6967aa",
+              "passes": 10,
+              "fails": 0
+            }
+          ]
+      },
+      {
+        "path": "::Promo Player",
+        "id": "e2a4603813c42c715c499449663d3329",
+        "groups": [],
+        "checks": [
+            {
+              "path": "::Promo Player::mega-elig: responded",
+              "id": "9cb20208be9b02ac6502ec65bba4dd42",
+              "passes": 10,
+              "fails": 0,
+              "name": "mega-elig: responded"
+            },
+            {
+              "name": "mega-dismiss: responded",
+              "path": "::Promo Player::mega-dismiss: responded",
+              "id": "ec4345956fb858e9ef0621da5ece5f61",
+              "passes": 10,
+              "fails": 0
+            },
+            {
+              "fails": 0,
+              "name": "mega-claim: responded",
+              "path": "::Promo Player::mega-claim: responded",
+              "id": "c82ac21fb4fb1a27177f1650b107a0fa",
+              "passes": 10
+            },
+            {
+              "name": "ref-status: status 200",
+              "path": "::Promo Player::ref-status: status 200",
+              "id": "ebd6c76e069dcc9b1c3e27361e8a2946",
+              "passes": 10,
+              "fails": 0
+            },
+            {
+              "fails": 0,
+              "name": "ref-token: responded",
+              "path": "::Promo Player::ref-token: responded",
+              "id": "09904ee7a60a03eee3f60cf4512d9eec",
+              "passes": 10
+            }
+          ],
+        "name": "Promo Player"
+      },
+      {
+        "name": "Engaged Player",
+        "path": "::Engaged Player",
+        "id": "6b42699dc9cb3fae57c92919e3fee49a",
+        "groups": [],
+        "checks": [
+            {
+              "passes": 13,
+              "fails": 0,
+              "name": "dl-status: status 200",
+              "path": "::Engaged Player::dl-status: status 200",
+              "id": "4777c11c3c0164d97900c88ef721a05c"
+            },
+            {
+              "name": "dl-claim: responded",
+              "path": "::Engaged Player::dl-claim: responded",
+              "id": "1d7da6eb4c705e8f84c8d540e574e602",
+              "passes": 13,
+              "fails": 0
+            },
+            {
+              "passes": 13,
+              "fails": 0,
+              "name": "dl-history: responded",
+              "path": "::Engaged Player::dl-history: responded",
+              "id": "5f78b81f2b463659c94340e709ee7815"
+            },
+            {
+              "passes": 13,
+              "fails": 0,
+              "name": "ref-status: status 200",
+              "path": "::Engaged Player::ref-status: status 200",
+              "id": "c0cece91a0035dfcb703a720ee4ccc13"
+            },
+            {
+              "path": "::Engaged Player::ref-code: responded",
+              "id": "182aade09e9e4ac62161ec40f24d5ef1",
+              "passes": 13,
+              "fails": 0,
+              "name": "ref-code: responded"
+            },
+            {
+              "passes": 13,
+              "fails": 0,
+              "name": "ref-dashboard: status 200",
+              "path": "::Engaged Player::ref-dashboard: status 200",
+              "id": "873fd4dc2a1344562b1a0807abbeab46"
+            },
+            {
+              "name": "ref-friends: status 200",
+              "path": "::Engaged Player::ref-friends: status 200",
+              "id": "8c34400fc9f679eb94c32866e3be26ac",
+              "passes": 13,
+              "fails": 0
+            },
+            {
+              "id": "f4dcdd1c3d361aa0142a3d4a4d9c54a7",
+              "passes": 13,
+              "fails": 0,
+              "name": "bonus-history: status 200",
+              "path": "::Engaged Player::bonus-history: status 200"
+            }
+          ]
+      },
+      {
+        "checks": [
+          {
+            "name": "support-summary: status 200",
+            "path": "::Support Seeker::support-summary: status 200",
+            "id": "f90af607dfa974b7c5bf13c67580fcca",
+            "passes": 5,
+            "fails": 0
+          },
+          {
+            "name": "support-list: status 200",
+            "path": "::Support Seeker::support-list: status 200",
+            "id": "3560155e321031a7444c438c1f50b816",
+            "passes": 5,
+            "fails": 0
+          },
+          {
+            "id": "07727a3c4524015c373fb47e44d884d4",
+            "passes": 5,
+            "fails": 0,
+            "name": "support-create: responded",
+            "path": "::Support Seeker::support-create: responded"
+          },
+          {
+            "name": "txn-history: status 200",
+            "path": "::Support Seeker::txn-history: status 200",
+            "id": "48078b33872370cdb46fe574777f8959",
+            "passes": 5,
+            "fails": 0
+          },
+          {
+            "name": "balances: status 200",
+            "path": "::Support Seeker::balances: status 200",
+            "id": "cb5b60fc8d436e6f5ea7ade6871da2ec",
+            "passes": 5,
+            "fails": 0
+          }
+        ],
+        "name": "Support Seeker",
+        "path": "::Support Seeker",
+        "id": "8c9a8ca5cdbaa5825b2d3130001a3cf9",
+        "groups": []
+      }
+    ],
+    "checks": [
+      {
+        "name": "login: status 200",
+        "path": "::login: status 200",
+        "id": "4d9cb0041884c26a6b714904c7aba027",
+        "passes": 5,
+        "fails": 0
+      },
+      {
+        "name": "login: has accessToken",
+        "path": "::login: has accessToken",
+        "id": "0ed6bb9e151398b6bdb5ece2c812de52",
+        "passes": 5,
+        "fails": 0
+      }
+    ],
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}

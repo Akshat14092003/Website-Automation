@@ -1,0 +1,16 @@
+node_modules/
+
+# Environment variables (contains credentials)
+.env
+
+# k6 test artifacts
+test-results/
+*.log
+
+# Auto-generated reports (HTML/XLSX)
+reports/*.html
+reports/*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db

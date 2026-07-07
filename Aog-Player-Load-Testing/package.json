@@ -1,0 +1,15 @@
+{
+  "name": "aog-player-load-testing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "k6 load testing for AOG player panel with Excel reporting",
+  "scripts": {
+    "report": "node generate-report.js",
+    "smoke:all": "k6 run member2-full-test.js",
+    "load:all": "k6 run -e STAGE=load member2-full-test.js",
+    "stress:all": "k6 run -e STAGE=stress member2-full-test.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

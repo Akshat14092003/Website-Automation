@@ -1,0 +1,16 @@
+node_modules/
+
+# Environment variables (contains credentials)
+.env
+
+# Test artifacts
+test-results/
+screenshots/
+*.log
+
+# Reports (auto-generated)
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db
